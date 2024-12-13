@@ -1,0 +1,41 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 50px;
+}
+
+.header-wrapper ul {
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+}
+
+.header-wrapper ul li {
+  list-style: none;
+}
+
+.header-wrapper ul li a {
+  text-decoration: none;
+}
+.header-wrapper ul li button {
+  background-color: transparent;
+  border: none;
+  color: #551a85;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+
+.errorShow {
+  color: red;
+  font: 300;
+}

@@ -1,0 +1,88 @@
+.food-item-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.food-item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.food-item-card {
+  background: #ede9e9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.food-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-button {
+  display: flex;
+  justify-content: space-between;
+}
+.food-delete {
+  border: none;
+  background-color: red;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.food-delete:hover {
+  background-color: #e53731;
+}
+
+.food-edit {
+  border: none;
+  background-color: green;
+  padding: 6px 10px;
+  margin: 4px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.food-edit:hover {
+  background-color: #1d8b44;
+}
+
+.food-details {
+  padding: 15px;
+}
+
+.food-details h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.food-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.food-price {
+  font-size: 16px;
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.back-button {
+  cursor: pointer;
+  color: #1a73e8;
+}
